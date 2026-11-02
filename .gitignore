@@ -1,0 +1,48 @@
+# Generated data — never commit uploaded files or results
+uploads/
+outputs/
+*.csv
+!evaluation_data/*.csv
+
+# Test datasets (may contain sensitive/patient data)
+Datasets for Testing/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# Logs
+app_logs/
+ai_logs/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+settings.json
+
+# Local tooling
+.claude/
+
+# Developer tools, tests and benchmark data; not part of the app
+dev/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+

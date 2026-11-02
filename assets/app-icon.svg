@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>EZ Linkage</title>
+  <!-- The sidebar mark on a navy tile, for the browser tab and the app icon. -->
+  <rect width="32" height="32" rx="7" fill="#142233"/>
+  <g transform="translate(16 16) rotate(-45) scale(0.8)" fill="none" stroke-width="3.2" stroke-linecap="round">
+    <path d="M3.08 -6.6H-5.28A4.4 4.4 0 0 0 -5.28 2.2H0" stroke="#4fb2dc"/>
+    <path d="M-3.08 6.6H5.28A4.4 4.4 0 0 0 5.28 -2.2H0" stroke="#5cc9b0"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Keep the evaluation data exactly as it was used
+evaluation_data/*.csv -text
+
+# Launchers: Windows batch files need CRLF, macOS scripts need LF
+*.bat     text eol=crlf
+*.command text eol=lf

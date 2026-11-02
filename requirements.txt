@@ -1,0 +1,16 @@
+# Core app
+flask>=3.1
+httpx>=0.27
+# Verifies the AI service's HTTPS certificate with the computer's certificate store, like a browser
+truststore>=0.9
+duckdb>=1.5
+pyarrow>=14
+pydantic>=2.0
+
+# Splink 5 takes inputs registered with db_api.register(); Splink 4 code does not run on it
+splink>=5.0,<6
+
+# Agents use langchain.agents.create_agent, which first shipped in LangChain 1.0
+langchain>=1.0
+langchain-core>=1.0
+langchain-openai>=1.0
